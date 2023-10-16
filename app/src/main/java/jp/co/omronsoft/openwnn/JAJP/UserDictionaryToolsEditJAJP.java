@@ -16,8 +16,12 @@
 
 package jp.co.omronsoft.openwnn.JAJP;
 
-import jp.co.omronsoft.openwnn.*;
 import android.view.View;
+
+import jp.co.omronsoft.openwnn.OpenWnnEvent;
+import jp.co.omronsoft.openwnn.OpenWnnJAJP;
+import jp.co.omronsoft.openwnn.UserDictionaryToolsEdit;
+import jp.co.omronsoft.openwnn.UserDictionaryToolsList;
 
 /**
  * The user dictionary's word editor class for Japanese IME.

@@ -16,10 +16,17 @@
 
 package jp.co.omronsoft.openwnn.EN;
 
-import jp.co.omronsoft.openwnn.*;
 import android.view.View;
 import android.view.Window;
+
 import java.util.Comparator;
+
+import jp.co.omronsoft.openwnn.OpenWnnEN;
+import jp.co.omronsoft.openwnn.OpenWnnEvent;
+import jp.co.omronsoft.openwnn.R;
+import jp.co.omronsoft.openwnn.UserDictionaryToolsEdit;
+import jp.co.omronsoft.openwnn.UserDictionaryToolsList;
+import jp.co.omronsoft.openwnn.WnnWord;
 
 /**
  * The user dictionary tool class for English IME.

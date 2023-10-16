@@ -16,9 +16,13 @@
 
 package jp.co.omronsoft.openwnn.JAJP;
 
-import jp.co.omronsoft.openwnn.*;
-import java.util.HashMap;
 import android.content.SharedPreferences;
+
+import java.util.HashMap;
+
+import jp.co.omronsoft.openwnn.ComposingText;
+import jp.co.omronsoft.openwnn.LetterConverter;
+import jp.co.omronsoft.openwnn.StrSegment;
 
 /**
  * The Romaji to Hiragana converter class for Japanese IME.

@@ -16,15 +16,16 @@
 
 package jp.co.omronsoft.openwnn.JAJP;
 
+import android.content.SharedPreferences;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Arrays;
 
 import jp.co.omronsoft.openwnn.CandidateFilter;
 import jp.co.omronsoft.openwnn.ComposingText;
-import jp.co.omronsoft.openwnn.OpenWnn;
 import jp.co.omronsoft.openwnn.OpenWnnDictionaryImpl;
 import jp.co.omronsoft.openwnn.StrSegmentClause;
 import jp.co.omronsoft.openwnn.WnnClause;
@@ -32,8 +33,6 @@ import jp.co.omronsoft.openwnn.WnnDictionary;
 import jp.co.omronsoft.openwnn.WnnEngine;
 import jp.co.omronsoft.openwnn.WnnSentence;
 import jp.co.omronsoft.openwnn.WnnWord;
-import android.content.SharedPreferences;
-import android.util.Log;
 
 /**
  * The OpenWnn engine class for Japanese IME.

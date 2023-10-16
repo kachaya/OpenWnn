@@ -17,7 +17,8 @@
 package jp.co.omronsoft.openwnn;
 
 import android.view.KeyEvent;
-import java.util.*;
+
+import java.util.HashMap;
 
 /**
  * The definition class of event message used by OpenWnn framework.

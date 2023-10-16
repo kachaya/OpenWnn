@@ -16,12 +16,11 @@
 
 package jp.co.omronsoft.openwnn;
 
-import jp.co.omronsoft.openwnn.EN.*;
-import android.content.SharedPreferences;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
-import android.os.Message;
 import android.os.Handler;
+import android.os.Message;
 import android.preference.PreferenceManager;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -30,12 +29,15 @@ import android.text.style.BackgroundColorSpan;
 import android.text.style.CharacterStyle;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.UnderlineSpan;
-import android.util.Log;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
+
+import jp.co.omronsoft.openwnn.EN.DefaultSoftKeyboardEN;
+import jp.co.omronsoft.openwnn.EN.OpenWnnEngineEN;
+import jp.co.omronsoft.openwnn.EN.TutorialEN;
 
 /**
  * The OpenWnn English IME class.

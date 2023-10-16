@@ -16,7 +16,6 @@
 
 package jp.co.omronsoft.openwnn;
 
-import java.lang.StringBuffer;
 import java.util.ArrayList;
 import java.util.Iterator;
 

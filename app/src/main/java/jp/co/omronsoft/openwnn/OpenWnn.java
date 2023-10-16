@@ -16,21 +16,15 @@
 
 package jp.co.omronsoft.openwnn;
 
-import android.inputmethodservice.InputMethodService;
-import android.view.WindowManager;
 import android.content.Context;
-import android.view.View;
-import android.view.KeyEvent;
-import android.view.MotionEvent;
 import android.content.SharedPreferences;
+import android.inputmethodservice.InputMethodService;
 import android.preference.PreferenceManager;
-
-import android.util.Log;
-import android.os.*;
-import android.view.inputmethod.*;
-import android.content.res.Configuration;
-import android.graphics.*;
-import android.graphics.drawable.*;
+import android.view.KeyEvent;
+import android.view.View;
+import android.view.WindowManager;
+import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputConnection;
 
 /**
  * The OpenWnn IME's base class.

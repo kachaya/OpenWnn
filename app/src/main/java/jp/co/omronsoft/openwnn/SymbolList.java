@@ -16,14 +16,16 @@
 
 package jp.co.omronsoft.openwnn;
 
+import android.content.SharedPreferences;
+import android.content.res.XmlResourceParser;
+import android.util.Log;
+
+import org.xmlpull.v1.XmlPullParserException;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import org.xmlpull.v1.XmlPullParserException;
-import android.content.SharedPreferences;
-import android.content.res.XmlResourceParser;
-import android.util.Log;
 
 /**
  * The generator class of symbol list.

@@ -16,9 +16,12 @@
 
 package jp.co.omronsoft.openwnn.JAJP;
 
-import jp.co.omronsoft.openwnn.*;
-import java.util.HashMap;
 import android.content.SharedPreferences;
+
+import java.util.HashMap;
+
+import jp.co.omronsoft.openwnn.ComposingText;
+import jp.co.omronsoft.openwnn.LetterConverter;
 
 /**
  * The Romaji to half-width Kataka converter class for Japanese IME.

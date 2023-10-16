@@ -16,11 +16,17 @@
 
 package jp.co.omronsoft.openwnn.EN;
 
-import java.util.HashMap;
-import java.util.ArrayList;
-
-import jp.co.omronsoft.openwnn.*;
 import android.content.SharedPreferences;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import jp.co.omronsoft.openwnn.CandidateFilter;
+import jp.co.omronsoft.openwnn.ComposingText;
+import jp.co.omronsoft.openwnn.OpenWnnDictionaryImpl;
+import jp.co.omronsoft.openwnn.WnnDictionary;
+import jp.co.omronsoft.openwnn.WnnEngine;
+import jp.co.omronsoft.openwnn.WnnWord;
 
 /**
  * The OpenWnn engine class for English IME.

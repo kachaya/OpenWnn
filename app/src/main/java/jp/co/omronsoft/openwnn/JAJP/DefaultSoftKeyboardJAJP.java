@@ -16,17 +16,23 @@
 
 package jp.co.omronsoft.openwnn.JAJP;
 
-import jp.co.omronsoft.openwnn.*;
-import android.view.KeyEvent;
-import android.view.inputmethod.EditorInfo;
-import android.view.inputmethod.InputConnection;
+import android.content.SharedPreferences;
 import android.inputmethodservice.Keyboard;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
-import android.content.SharedPreferences;
+import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputConnection;
+
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.List;
+import java.util.Locale;
+
+import jp.co.omronsoft.openwnn.DefaultSoftKeyboard;
+import jp.co.omronsoft.openwnn.OpenWnn;
+import jp.co.omronsoft.openwnn.OpenWnnEvent;
+import jp.co.omronsoft.openwnn.OpenWnnJAJP;
+import jp.co.omronsoft.openwnn.R;
 
 /**
  * The default Software Keyboard class for Japanese IME.

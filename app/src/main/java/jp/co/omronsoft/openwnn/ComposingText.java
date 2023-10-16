@@ -16,10 +16,10 @@
 
 package jp.co.omronsoft.openwnn;
 
-import java.util.Iterator;
-import java.util.ArrayList;
-
 import android.util.Log;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * The container class of composing string.

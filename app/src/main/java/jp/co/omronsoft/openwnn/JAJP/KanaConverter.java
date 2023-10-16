@@ -21,6 +21,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+
 import jp.co.omronsoft.openwnn.WnnDictionary;
 import jp.co.omronsoft.openwnn.WnnPOS;
 import jp.co.omronsoft.openwnn.WnnWord;

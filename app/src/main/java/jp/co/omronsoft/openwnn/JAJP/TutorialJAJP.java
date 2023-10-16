@@ -32,7 +32,6 @@
 
 package jp.co.omronsoft.openwnn.JAJP;
 
-import jp.co.omronsoft.openwnn.*;
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
@@ -40,10 +39,10 @@ import android.os.Handler;
 import android.os.Message;
 import android.text.Layout;
 import android.text.SpannableStringBuilder;
-import android.text.StaticLayout;
 import android.text.Spanned;
-import android.text.style.ImageSpan;
+import android.text.StaticLayout;
 import android.text.style.DynamicDrawableSpan;
+import android.text.style.ImageSpan;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -54,6 +53,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import jp.co.omronsoft.openwnn.OpenWnnJAJP;
+import jp.co.omronsoft.openwnn.R;
 
 public class TutorialJAJP implements OnTouchListener {
     

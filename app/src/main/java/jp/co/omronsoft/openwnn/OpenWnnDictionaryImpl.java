@@ -22,8 +22,6 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteCursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import android.util.Log;
-
 /**
  * The implementation class of WnnDictionary interface (JNI wrapper class).
  *

@@ -16,8 +16,8 @@
 
 package jp.co.omronsoft.openwnn;
 
-import android.view.View;
 import android.content.Context;
+import android.view.View;
 import android.widget.TextView;
 
 /**

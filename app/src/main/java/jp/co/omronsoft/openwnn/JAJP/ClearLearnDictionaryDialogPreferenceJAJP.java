@@ -20,7 +20,11 @@ import android.content.Context;
 import android.preference.DialogPreference;
 import android.util.AttributeSet;
 import android.widget.Toast;
-import jp.co.omronsoft.openwnn.*;
+
+import jp.co.omronsoft.openwnn.OpenWnnEvent;
+import jp.co.omronsoft.openwnn.OpenWnnJAJP;
+import jp.co.omronsoft.openwnn.R;
+import jp.co.omronsoft.openwnn.WnnWord;
 
 /**
  * The preference class to clear learning dictionary for Japanese IME.

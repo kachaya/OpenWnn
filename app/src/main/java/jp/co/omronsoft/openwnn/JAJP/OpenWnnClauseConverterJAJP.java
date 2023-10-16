@@ -16,8 +16,17 @@
 
 package jp.co.omronsoft.openwnn.JAJP;
 
-import jp.co.omronsoft.openwnn.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+
+import jp.co.omronsoft.openwnn.CandidateFilter;
+import jp.co.omronsoft.openwnn.WnnClause;
+import jp.co.omronsoft.openwnn.WnnDictionary;
+import jp.co.omronsoft.openwnn.WnnPOS;
+import jp.co.omronsoft.openwnn.WnnSentence;
+import jp.co.omronsoft.openwnn.WnnWord;
 
 /**
  * The penWnn Clause Converter class for Japanese IME.

@@ -16,10 +16,12 @@
 
 package jp.co.omronsoft.openwnn.JAJP;
 
-import jp.co.omronsoft.openwnn.*;
 import android.content.Context;
 import android.preference.ListPreference;
 import android.util.AttributeSet;
+
+import jp.co.omronsoft.openwnn.OpenWnnEvent;
+import jp.co.omronsoft.openwnn.OpenWnnJAJP;
 
 /**
  * The preference class of keyboard image list for Japanese IME.
